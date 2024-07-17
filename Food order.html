@@ -6,23 +6,25 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f8f8f8;
+            background-color: #e0f7fa; /* Light blue background */
+            color: #00796b; /* Teal text color */
         }
         .menu {
             margin-bottom: 20px;
         }
         .receipt {
-            border: 1px solid #000;
+            border: 1px solid #00796b; /* Teal border */
             padding: 10px;
             margin-top: 20px;
             display: inline-block;
             text-align: left;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5; /* Light gray background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
         .receipt-header, .receipt-footer {
             text-align: center;
             font-weight: bold;
+            color: #00796b; /* Teal text color */
         }
         .receipt-table {
             width: 100%;
@@ -30,7 +32,7 @@
             margin-bottom: 10px;
         }
         .receipt-table th, .receipt-table td {
-            border: 1px solid #000;
+            border: 1px solid #00796b; /* Teal border */
             padding: 5px;
             text-align: left;
         }
@@ -51,7 +53,7 @@
 <body>
 
 <h1>Prince Titus Eatery</h1>
-<img src="logo.png" alt="Prince Titus Eatery Logo" class="logo">
+<img src="logo.jpg" alt="Prince Titus Eatery Logo" class="logo">
 <p>2024-2025</p>
 <p>Menu:</p>
 
@@ -75,7 +77,7 @@
 
 <div id="receipt" class="receipt" style="display:none;">
     <div class="receipt-header">
-        <img src="logo.png" alt="Prince Titus Eatery Logo" class="logo">
+        <img src="logo.jpg" alt="Prince Titus Eatery Logo" class="logo">
         <p>RECEIPT</p>
         <p id="receiptTime"></p>
     </div>
